@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "images": "https://i.ibb.co/Nj6q3fy/lip.webp",
+        "category": "women",
+        "name": "Lip care",
+        "price": 45.99,
+        "description": "A lipstick or lip gloss completes your look, makes you feel confident …",
+        "rating": 3,
+        "specifications": [
+            "Good product",
+            "Lobster clasp",
+            "Imported"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 2,
+        "images": "https://i.ibb.co/j5Ptsfb/hat.jpg",
+        "category": "men",
+        "name": "Men's Watch",
+        "price": 120,
+        "description": "Elegant and functional men's watch.",
+        "rating": 4.5,
+        "specifications": [
+            "Durable",
+            "Water-resistant",
+            "Leather strap"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 3,
+        "images": "https://i.ibb.co/HG24h6r/t-shart.webp",
+        "category": "men",
+        "name": "Men's T-Shirt",
+        "price": 19.99,
+        "description": "A comfortable and stylish men's t-shirt.",
+        "rating": 4.5,
+        "specifications": [
+            "100% Cotton",
+            "Machine washable",
+            "Regular fit"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 4,
+        "images": "https://i.ibb.co/9sVTHRR/w.webp",
+        "category": "women",
+        "name": "Women's Sunglasses",
+        "price": 29.99,
+        "description": "Trendy and protective women's sunglasses.",
+        "rating": 3,
+        "specifications": [
+            "UV Protection",
+            "Polarized",
+            "Stylish frame"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 5,
+        "images": "https://i.ibb.co/Z2ysVF2/shampo.webp",
+        "category": "men",
+        "name": "Shampoo",
+        "price": 120,
+        "description": "To maintain hair and scalp health, regular usage of shampoo is a manda…",
+        "rating": 4.5,
+        "specifications": [
+            "Anti-dandruff",
+            "Sulphate-free",
+            "Suitable for all hair types"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 6,
+        "images": "https://i.ibb.co/7G9TR1v/phn.webp",
+        "category": "electronics",
+        "name": "Smartphone",
+        "price": 299.99,
+        "description": "Latest model smartphone with advanced features.",
+        "rating": 5,
+        "specifications": [
+            "64GB Storage",
+            "Dual SIM",
+            "12MP Camera"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 7,
+        "images": "https://i.ibb.co/1JmnVB7/ww.webp",
+        "category": "women",
+        "name": "Women's Necklace",
+        "price": 45.99,
+        "description": "Elegant and stylish women's necklace.",
+        "rating": 3,
+        "specifications": [
+            "Gold plated",
+            "Adjustable length",
+            "Hypoallergenic"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 8,
+        "images": "https://i.ibb.co/ZmhRFhg/earbud.webp",
+        "category": "electronics",
+        "name": "Wireless Earbuds",
+        "price": 89.99,
+        "description": "High-quality wireless earbuds with excellent sound.",
+        "rating": 2,
+        "specifications": [
+            "Bluetooth 5.0",
+            "Noise cancellation",
+            "Long battery life"
+        ],
+        "availability": "In Stock"
+    }
+]
