@@ -1,0 +1,19 @@
+/* Add this CSS in your styles.css or a similar file */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.animated-gradient-text {
+    display: inline-block;
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #06beb6, #ff6ec4);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 2s ease infinite;
+}
