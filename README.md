@@ -1,5 +1,5 @@
 # E-commerce Landing Page
-# live link : https://rotten-bead.surge.sh/
+# live link : https://tawdry-credit.surge.sh/
 
 ## Project Overview
 
