@@ -25,7 +25,7 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-semibold">
-                        <li><a>Home</a></li>
+                        <li><a href='/'>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Services</a></li>
                     </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold">
-                    <li><a>Home</a></li>
+                    <li><a href='/'>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Services</a></li>
                 </ul>
@@ -42,8 +42,8 @@ const Navbar = () => {
             <div className="navbar-end">
                 <span className='text-2xl mr-3'><FaCartPlus ></FaCartPlus></span>
                 <button className="px-6 py-2 text-lg font-medium text-white bg-[#0097e6] rounded-lg hover:bg-blue-700 transition duration-300">
-                         Login
-                    </button>
+                    Login
+                </button>
             </div>
         </div>
     );

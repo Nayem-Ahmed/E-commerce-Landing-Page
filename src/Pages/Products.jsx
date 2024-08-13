@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Rating } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -17,7 +18,7 @@ const Products = () => {
             <h2 className="text-3xl font-bold text-center mb-8">Featured Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-8">
                 {products.map(product => (
-                    <div key={product.id} className="border rounded-lg overflow-hidden shadow-lg flex flex-col">
+                    <Link to={`/product_details/${product.id}`} key={product.id} className="border rounded-lg overflow-hidden shadow-lg flex flex-col">
                         <img src={product.images} alt={product.name} className="w-full h-52 object-cover" />
                         <div className="p-4 flex flex-col flex-grow">
                             <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
@@ -27,7 +28,7 @@ const Products = () => {
                                 <div className="text-lg font-bold">$ {product.price}</div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>

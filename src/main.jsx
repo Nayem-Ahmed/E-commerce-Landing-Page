@@ -9,7 +9,7 @@ import {
 import Root from './MainLayOut/Root.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
 import Home from './Pages/Home.jsx';
-import Navbar from './Components/Navbar.jsx';
+import ProductDetails from './Pages/ProductDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +20,11 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
+      },
+      {
+        path: '/product_details/:productId',
+        loader: () => fetch('/allproducts.json'),
+        element: <ProductDetails></ProductDetails>,
       },
     ]
   },
