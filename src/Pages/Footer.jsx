@@ -6,11 +6,13 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 const Footer = () => {
     return (
         <footer className="bg-[#353b48] text-white p-5">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 text-center md:text-start">
                 <div className="mb-6 md:mb-0">
-                    <img src={footerLogo} alt="Footer Logo" className="mb-4 h-16" />
+                    <div className="flex justify-center md:justify-start mb-4">
+                        <img src={footerLogo} alt="Footer Logo" className="h-16" />
+                    </div>
                     <p className="text-sm">SHOP Industries Ltd. <br /> Providing reliable tech since 1992</p>
-                    <div className="mt-4 flex">
+                    <div className="mt-4 flex justify-center md:justify-start">
                         <a href="#" className="text-gray-400 hover:text-white mr-4"><FaFacebookF /></a>
                         <a href="#" className="text-gray-400 hover:text-white mr-4"><FaTwitter /></a>
                         <a href="#" className="text-gray-400 hover:text-white"><FaInstagram /></a>
